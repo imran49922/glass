@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* background */
+main {
+    height: 100vh;
+    background: linear-gradient( to right top,
+        rgba(248, 0, 124, 1),
+        rgba(197, 3, 245, 1));
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+/* glass box */
+.glass {
+    min-height: 80vh;
+    width: 60%;
+    background: linear-gradient( to right bottom,
+        rgba(255, 255, 255, 0.7),
+        rgba(149, 213, 255, 0.3)
+    );
+    border-radius: 20px;
+    z-index: 2;
+    backdrop-filter: blur(.7rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* circles */
+.circle1 {
+    width: 19rem;
+    height: 19rem;
+    background: linear-gradient(to right bottom,
+    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 0.1)
+    );
+    position: absolute;
+    top: 10px;
+    right: 80px;
+    border-radius: 50%;
+    z-index: 1;
+}
+.circle2 {
+    width: 18rem;
+    height: 18rem;
+    background: linear-gradient(to right bottom,
+    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 0.1)
+    );
+    position: absolute;
+    bottom: 10px;
+    left: 80px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* content inside of glass */
+/*------------------------------------ */
+
+/* Dashboard-----------------------> */
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient( to right bottom,
+    rgba(255, 255, 255, 0.4),
+    rgba(149, 213, 255, 0.2)
+    );
+    padding: 0px 50px;
+    border-radius: 20px;
+    height: 80vh;
+}
+.dashboard img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.details h2 {
+    font-size: 1.1rem;
+}
+.details h3 {
+    font-size: .7rem;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.links img {
+    height: 35px;
+    width: 35px;
+}
+.links h2 {
+    font-size: 1rem;
+    padding: 0 20px;
+    font-weight: 300;
+}
+#twitter {
+    padding-right: 40px;
+}
+.links a {
+    text-decoration: none;
+    color: rgb(80, 79, 79);
+
+}
+
+.resume {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient( to right bottom,
+    rgba(248, 0, 124, 0.6),
+    rgba(197, 3, 245, 0.4)
+    );
+    border-radius: 18px;
+    justify-content: center;
+    align-items: center;
+    padding: 9px;
+}
+
+.resume h2 {
+    width: 10px;
+    padding-right: 80px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.main-activity img {
+    height: 70px;
+    width: 70px;
+}
+
+/* Main activity----------------> */
+.main-activity {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 190px;
+}
+
+.main-activity h1 {
+    padding-left: 20px;
+    padding-bottom: 9px;
+    font-size: 2rem;
+    margin-left: 30px;
+    font-weight: 500;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to left top,
+    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 0.1)
+    );
+    margin-left: 50px;
+    margin-bottom: 10px;
+    border-radius: 9px;
+    padding: 8px;
+    box-shadow: 3px 3px 10px rgb(114, 113, 113);
+
+}
+.block img {
+    height: 45px;
+    width: 45px;
+}
+
+.block h2 {
+    font-size: 1.3rem;
+}
+.block p {
+    font-size: .8rem;
+    width: 300px;
+    text-align: center;
+}
+/* .block1::after {
+    content: "";
+    width: 180px;
+    height: 18px;
+    background: linear-gradient( to left,
+        rgba(248, 0, 124, 1),
+        rgba(245, 3, 233, 1));
+    position: absolute;
+    z-index: 1;
+    top: 34%;
+    left: 52%;
+    border-radius: 9px;
+}
+.block2::after {
+    content: "";
+    width: 180px;
+    height: 18px;
+    background: linear-gradient( to left,
+    rgba(248, 0, 124, 1),
+    rgb(245, 3, 233, 1));
+    position: absolute;
+    z-index: 1;
+    top: 57.5%;
+    left: 52%;
+    border-radius: 9px;
+}
+.block3::after {
+    content: "";
+    width: 180px;
+    height: 18px;
+    background: linear-gradient( to left,
+        rgba(248, 0, 124, 1),
+        rgba(245, 3, 233, 1));
+    position: absolute;
+    z-index: 1;
+    top: 81%;
+    left: 52%;
+    border-radius: 9px;
+} */
